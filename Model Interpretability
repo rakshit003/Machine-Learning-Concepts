@@ -1,0 +1,56 @@
+One of the most basic questions we might ask of a model is: What features have the biggest impact on predictions?
+
+This concept is called feature importance.
+
+There are multiple ways to measure feature importance. One of the most widely used technique is permutation importance. Shown as below
+
+
+**technique 1 *** permutation importance
+
+How It Works ?
+
+Permutation importance is calculated after a model has been fitted
+If I randomly shuffle a single column of the validation data(shuffle the values across the column), leaving the target and all other columns in place, 
+how would that affect the accuracy of predictions in that now-shuffled data?
+
+Randomly re-ordering a single column should cause less accurate predictions,
+Model accuracy especially suffers if we shuffle a column that the model relied on heavily for predictions.
+
+Steps:
+
+Step1 :Get a trained model.
+Step2: Shuffle the values in a single column, make predictions using the resulting dataset. 
+       Use these predictions and the true target values to calculate how much the loss function suffered from shuffling. 
+       That performance deterioration measures the importance of the variable you just shuffled.
+Step3: Return the data to the original order (undoing the shuffle from step 2). 
+       Now repeat step 2 with the next column in the dataset, until you have calculated the importance of each column.
+
+****code*****
+import eli5
+from eli5.sklearn import PermutationImportance
+
+perm = PermutationImportance(my_model, random_state=1).fit(val_X, val_y)
+eli5.show_weights(perm, feature_names = val_X.columns.tolist())
+*************
+
+The values towards the top are the most important features, and those towards the bottom matter least.
+
+The first number in each row shows how much model performance decreased with a random shuffling 
+(in this case, using "accuracy" as the performance metric).
+The number after the ± measures how performance varied from one-reshuffling to the next.
+
+Why Are These Insights Valuable
+These insights have many uses, including
+
+***technique 2 -  Partial dependent plots******
+***techique 3 - Shap values**********
+
+Debugging
+Informing feature engineering
+Directing future data collection
+Informing human decision-making
+Building Trust
+
+Feature Enginnering
+- IF 2 features are high importance and closely entangled, they can be combined with some logic to create a new feature
+
