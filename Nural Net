@@ -3,3 +3,4 @@ Multi class classification in Nural net
 Logistic Regression is a generalization of softmax regressign, for n=2
 In order to achive multiclass in nuralnet we add a softmax function multi node only in the output layer 
 a1= e^z1/e^z1+e^z2+.....e^zn   -- n is number of classes
+all the other layer remain same as normal NN with 2 classes
