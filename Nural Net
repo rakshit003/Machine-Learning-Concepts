@@ -1,6 +1,11 @@
-Multi class classification in Nural net
+****Multi class classification in Nural net
 
 Logistic Regression is a generalization of softmax regressign, for n=2
 In order to achive multiclass in nuralnet we add a softmax function multi node only in the output layer 
 a1= e^z1/e^z1+e^z2+.....e^zn   -- n is number of classes
 all the other layer remain same as normal NN with 2 classes
+
+****Difference Between Loss and Cost Function
+Loss function is defined for only 1 row(example) of the data set and a give point in time gives the loss of inputted row
+Cost function is for all records. Its an average of loss of each record of the dataset, 
+Gradient decent plots cost function against model weights and minimise the cost by adjusting the weights slowly
