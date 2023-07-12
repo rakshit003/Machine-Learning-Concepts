@@ -20,3 +20,11 @@ centers = [[-5, 2], [-2, -2], [1, 2], [5, -2]]
 std = 1.0
 X_train, y_train = make_blobs(n_samples=m, centers=centers, cluster_std=std,random_state=30)
 plt_mc(X_train,y_train,classes, centers, std=std)
+# show classes in data set
+
+
+print(f"unique classes {np.unique(y_train)}")
+# show how classes are represented
+print(f"class representation {y_train[:10]}")
+# show shapes of our dataset
+print(f"shape of X_train: {X_train.shape}, shape of y_train: {y_train.shape}")
