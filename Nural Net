@@ -9,3 +9,13 @@ all the other layer remain same as normal NN with 2 classes
 Loss function is defined for only 1 row(example) of the data set and a give point in time gives the loss of inputted row
 Cost function is for all records. Its an average of loss of each record of the dataset, 
 Gradient decent plots cost function against model weights and minimise the cost by adjusting the weights slowly
+
+*****making multi class datatset for testing
+
+# make 4-class dataset for classification
+from sklearn.datasets import make_blobs
+classes = 4
+m = 100
+centers = [[-5, 2], [-2, -2], [1, 2], [5, -2]]
+std = 1.0
+X_train, y_train = make_blobs(n_samples=m, centers=centers, cluster_std=std,random_state=30)
