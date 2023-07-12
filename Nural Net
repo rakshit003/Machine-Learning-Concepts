@@ -51,6 +51,10 @@ W1,b1 = l1.get_weights()
 # plot the function of the first layer
 plt_layer_relu(X_train, y_train.reshape(-1,), W1, b1, classes)
 
+These plots show the function of Units 0 and 1 in the first layer of the network. The inputs are ( 𝑥0,𝑥1
+ ) on the axis. The output of the unit is represented by the color of the background. This is indicated by the color bar on the right of each graph. Notice that since these units are using a ReLu, the outputs do not necessarily fall between 0 and 1 and in this case are greater than 20 at their peaks. The contour lines in this graph show the transition point between the output,  𝑎[1]𝑗
+  being zero and non-zero. Recall the graph for a ReLu : The contour line in the graph is the inflection point in the ReLu
+
 
 # gather the trained parameters from the output layer
 l2 = model.get_layer("L2")
