@@ -113,3 +113,8 @@ Advantages:
 -Needs less training data
 -Less Prone to overfitting
 - This also results in another architectural choice of how many inputs a nuron should have
+
+******RELU ACTIVATION***
+The ReLU provides a continuous linear relationship. Additionally it has an 'off' range where the output is zero. 
+The "off" feature makes the ReLU a Non-Linear activation. 
+Why is this needed? This enables multiple units to contribute to to the resulting function without interfering.
