@@ -102,3 +102,13 @@ Although it requires a default input learning rate initially.
 
 For every weight/parameter it has a different learning rate.
 
+******Convolution Layer*****
+
+Unlike Normal NN layer, Convolution NN layer only looks at a part of input rather than all the indput.
+like only a subsection of an image rather than the entire image. so not all links of input are attached to that layer.
+Multiple convolutional layers in NN is called Convolution Nural Net
+
+Advantages:
+-Fast Computation
+-Needs less training data
+-Less Prone to overfitting
