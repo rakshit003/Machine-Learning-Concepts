@@ -90,3 +90,14 @@ print(f"unique classes {np.unique(y_train)}")
 print(f"class representation {y_train[:10]}")
 # show shapes of our dataset
 print(f"shape of X_train: {X_train.shape}, shape of y_train: {y_train.shape}")
+
+
+*********Learning Rate
+normal for a gradient decent ,learning rate is constant, and if we have a small learning rate learning is slower
+and large learning rate sometimes can not reach the global minima.
+
+Adam algorithm provides adaptable learning rate based on situation. If learning is going in same direction slowly then it increases apha
+automatically. If learning is ossilating back and forth then reduce the alpha to give it a direction.
+
+For every weight/parameter it has a different learning rate.
+
