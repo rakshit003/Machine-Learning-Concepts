@@ -112,3 +112,4 @@ Advantages:
 -Fast Computation
 -Needs less training data
 -Less Prone to overfitting
+- This also results in another architectural choice of how many inputs a nuron should have
