@@ -98,6 +98,7 @@ and large learning rate sometimes can not reach the global minima.
 
 Adam algorithm provides adaptable learning rate based on situation. If learning is going in same direction slowly then it increases apha
 automatically. If learning is ossilating back and forth then reduce the alpha to give it a direction.
+Although it requires a default input learning rate initially.
 
 For every weight/parameter it has a different learning rate.
 
