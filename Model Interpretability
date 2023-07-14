@@ -122,3 +122,5 @@ When selecting a model, you want to choose one that performs well both on the tr
 It implies that it is able to learn the patterns from your training set without overfitting.
 Plot the Training error and Cv Error in y axis and different model param values(like degree of polynomial) in x axis
 and find the point where cve is minimum
+
+You can then publish the generalization error by computing the test set's MSE
