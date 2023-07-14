@@ -62,6 +62,9 @@ Feature Enginnering
 Once the modelparameters are fit the training set the training error(Jtrain cost function error) is likely to be lower
 than the generalized error(Avg error on New examples)
 
+For a regression problem J(error) on test can be calculated by running the test set on Cost function
+where as for Classification problem a better way to find the error is miscalssification ratio from the output
+
 Best Practice is to build 3 sets- Training , cross validation(or validation/dev set) and test set
 Cross validation is used to check the best model among multiple models. It is also used for hyper parameter tuning  or different
 different architecture of NN
