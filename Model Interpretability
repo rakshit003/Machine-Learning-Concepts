@@ -115,6 +115,8 @@ X_train_scaled = scaler_linear.fit_transform(x_train)
 # Scale the cross validation set using the mean and standard deviation of the training set
 X_cv_scaled = scaler_linear.transform(x_cv)
 
+# using training set scalar for test set
+X_test_mapped_scaled = scaler.transform(X_test_mapped)
 
 *****Choosing the best model****
 
