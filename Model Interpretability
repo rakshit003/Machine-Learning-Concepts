@@ -84,7 +84,15 @@ x_train, x_, y_train, y_ = train_test_split(x, y, test_size=0.40, random_state=1
 x_cv, x_test, y_cv, y_test = train_test_split(x_, y_, test_size=0.50, random_state=1)
 
 
+
+
 ****Feature Scaling***********
 In the previous course of this specialization, you saw that it is usually a good idea to perform feature scaling to help your model converge faster. 
 This is especially true if your input features have widely different ranges of values.
 
+As with the training set, you will also want to scale the cross validation set. An important thing to note when using the z-score is you have to use the mean and standard deviation of the training set when scaling the cross validation set. This is to ensure that your input features are transformed as expected by the model. One way to gain intuition is with this scenario:
+
+Say that your training set has an input feature equal to 500 which is scaled down to 0.5 using the z-score.
+After training, your model is able to accurately map this scaled input x=0.5 to the target output y=300.
+Now let's say that you deployed this model and one of your users fed it a sample equal to 500.
+If you get this input sample's z-score using any other values of the mean and standard deviation, then it might not be scaled to 0.5 and your model will most likely make a wrong prediction (i.e. not equal to y=300).
