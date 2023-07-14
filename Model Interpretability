@@ -76,3 +76,8 @@ training set - used to train the model
 cross validation set (also called validation, development, or dev set) - used to evaluate the different model configurations you are choosing from. For example, you can use this to make a decision on what polynomial features to add to your dataset.
 test set - used to give a fair estimate of your chosen model's performance against new examples. This should not be used to make decisions while you are still developing the models.
 
+# Get 60% of the dataset as the training set. Put the remaining 40% in temporary variables: x_ and y_.
+x_train, x_, y_train, y_ = train_test_split(x, y, test_size=0.40, random_state=1)
+
+# Split the 40% subset above into two: one half for cross validation and the other for the test set
+x_cv, x_test, y_cv, y_test = train_test_split(x_, y_, test_size=0.50, random_state=1)
