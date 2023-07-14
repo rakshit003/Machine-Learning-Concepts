@@ -131,3 +131,7 @@ eg of publication:
 Training MSE: 47.15
 Cross Validation MSE: 79.43
 Test MSE: 104.63
+
+In the previous sections on regression models, you used the mean squared error to measure how well your model is doing. 
+For classification, you can get a similar metric by getting the fraction of the data that the model has misclassified. 
+For example, if your model made wrong predictions for 2 samples out of 5, then you will report an error of 40% or 0.4
