@@ -124,3 +124,8 @@ Plot the Training error and Cv Error in y axis and different model param values(
 and find the point where cve is minimum
 
 You can then publish the generalization error by computing the test set's MSE
+
+eg of publication:
+Training MSE: 47.15
+Cross Validation MSE: 79.43
+Test MSE: 104.63
