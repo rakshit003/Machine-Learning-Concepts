@@ -96,3 +96,12 @@ Say that your training set has an input feature equal to 500 which is scaled dow
 After training, your model is able to accurately map this scaled input x=0.5 to the target output y=300.
 Now let's say that you deployed this model and one of your users fed it a sample equal to 500.
 If you get this input sample's z-score using any other values of the mean and standard deviation, then it might not be scaled to 0.5 and your model will most likely make a wrong prediction (i.e. not equal to y=300).
+
+# Initialize the class
+scaler_linear = StandardScaler()
+
+# Compute the mean and standard deviation of the training set then transform it
+X_train_scaled = scaler_linear.fit_transform(x_train)
+
+# Scale the cross validation set using the mean and standard deviation of the training set
+X_cv_scaled = scaler_linear.transform(x_cv)
