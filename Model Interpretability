@@ -61,3 +61,6 @@ Feature Enginnering
 
 Once the modelparameters are fit the training set the training error(Jtrain cost function error) is likely to be lower
 than the generalized error(Avg error on New examples)
+
+Best Practice is to build 3 sets- Training , cross validation(or validation/dev set) and test set
+Cross validation is used to check the best model among multiple models
