@@ -64,12 +64,21 @@ than the generalized error(Avg error on New examples)
 
 For a regression problem J(error) on test can be calculated by running the test set on Cost function
 where as for Classification problem a better way to find the error is miscalssification ratio from the output
+
 Jlinear= sklearn.mean_squared_error(y_train, yhat) / 2}
 
 Best Practice is to build 3 sets- Training , cross validation(or validation/dev set) and test set
 Cross validation is used to check the best model among multiple models. It is also used for hyper parameter tuning  or different
 different architecture of NN
 Error is called -  cv error or dev error
+
+# Compute the training MSE
+yhat = model.predict(X_train_mapped_scaled)
+print(f"Training MSE: {mean_squared_error(y_train, yhat) / 2}")
+
+# Compute the cross validation MSE
+yhat = model.predict(X_cv_mapped_scaled)
+print(f"Cross validation MSE: {mean_squared_error(y_cv, yhat) / 2}")
 
 generalization error reporting: this is always the test set error for the data which the model ihas never seen
 
