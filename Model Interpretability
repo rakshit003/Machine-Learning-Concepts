@@ -25,6 +25,7 @@ Step2: Shuffle the values in a single column, make predictions using the resulti
 Step3: Return the data to the original order (undoing the shuffle from step 2). 
        Now repeat step 2 with the next column in the dataset, until you have calculated the importance of each column.
 
+
 ****code*****
 import eli5
 from eli5.sklearn import PermutationImportance
@@ -57,3 +58,6 @@ Feature Enginnering
 
 
 ************Diagnostics***********
+
+Once the modelparameters are fit the training set the training error(cost function error) is likely to be lower
+than the generalized error
