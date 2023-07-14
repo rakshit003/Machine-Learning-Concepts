@@ -71,3 +71,8 @@ different architecture of NN
 Error is called -  cv error or dev error
 
 generalization error reporting: this is always the test set error for the data which the model ihas never seen
+
+training set - used to train the model
+cross validation set (also called validation, development, or dev set) - used to evaluate the different model configurations you are choosing from. For example, you can use this to make a decision on what polynomial features to add to your dataset.
+test set - used to give a fair estimate of your chosen model's performance against new examples. This should not be used to make decisions while you are still developing the models.
+
