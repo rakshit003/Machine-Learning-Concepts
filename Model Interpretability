@@ -64,6 +64,7 @@ than the generalized error(Avg error on New examples)
 
 For a regression problem J(error) on test can be calculated by running the test set on Cost function
 where as for Classification problem a better way to find the error is miscalssification ratio from the output
+Jlinear= sklearn.mean_squared_error(y_train, yhat) / 2}
 
 Best Practice is to build 3 sets- Training , cross validation(or validation/dev set) and test set
 Cross validation is used to check the best model among multiple models. It is also used for hyper parameter tuning  or different
@@ -86,3 +87,4 @@ x_cv, x_test, y_cv, y_test = train_test_split(x_, y_, test_size=0.50, random_sta
 ****Feature Scaling***********
 In the previous course of this specialization, you saw that it is usually a good idea to perform feature scaling to help your model converge faster. 
 This is especially true if your input features have widely different ranges of values.
+
