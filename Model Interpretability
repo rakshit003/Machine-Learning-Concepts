@@ -63,7 +63,8 @@ Once the modelparameters are fit the training set the training error(Jtrain cost
 than the generalized error(Avg error on New examples)
 
 Best Practice is to build 3 sets- Training , cross validation(or validation/dev set) and test set
-Cross validation is used to check the best model among multiple models. It is also used for hyper parameter tuning
+Cross validation is used to check the best model among multiple models. It is also used for hyper parameter tuning  or different
+different architecture of NN
 Error is called -  cv error or dev error
 
 generalization error reporting: this is always the test set error for the data which the model ihas never seen
