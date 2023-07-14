@@ -114,3 +114,11 @@ X_train_scaled = scaler_linear.fit_transform(x_train)
 
 # Scale the cross validation set using the mean and standard deviation of the training set
 X_cv_scaled = scaler_linear.transform(x_cv)
+
+
+*****Choosing the best model****
+
+When selecting a model, you want to choose one that performs well both on the training and cross validation set. 
+It implies that it is able to learn the patterns from your training set without overfitting.
+Plot the Training error and Cv Error in y axis and different model param values(like degree of polynomial) in x axis
+and find the point where cve is minimum
