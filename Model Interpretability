@@ -140,5 +140,7 @@ For example, if your model made wrong predictions for 2 samples out of 5, then y
 
 ********Bias vs Variance******
 
-ig Jtrain is high anf Jcv is low then its high bias(underfitting)
-ig Jtrain is low and Jcv is high the its hig variance(overfitting)
+if Jtrain is high anf Jcv is low then its high bias(underfitting)
+if Jtrain is low and Jcv is high the its hig variance(overfitting)
+also as the complecity increase Jcv decrease intially(as bias reduces) and then Jcv increase(variance increase).
+the idealy point is when Jcv is the least
