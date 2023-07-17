@@ -179,3 +179,15 @@ if Training - Cross V = 4%
 High Bias
 if Baseline - trainig = 4.4%
 if Training - Cross V = 0.5%
+
+
+***learning Curves***
+
+This plots Jtrain and Jcv against size of the data set
+
+- Its interesting to see that as size of data set increase training error also increases, 
+   because its easy to fit a function on less data point when compared to more data points 
+- And if size of data set increase CV Error reduces
+- J Cv is normally higher than the ztraining error
+
+
