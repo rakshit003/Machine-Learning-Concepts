@@ -180,6 +180,10 @@ High Bias
 if Baseline - trainig = 4.4%
 if Training - Cross V = 0.5%
 
+Real-world data can be very noisy and it's often infeasible to get to 0% error. 
+For example, you might think that you have a high bias problem because you're getting 10% training and 15% cross validation error on a computer vision application. 
+However, you later found out that even humans can't perform better than 10% error. 
+If you consider this the baseline level, then you now instead have a high variance problem because you've prioritized minimizing the gap between cross validation and training error.
 
 ***learning Curves***
 
