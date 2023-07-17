@@ -144,3 +144,19 @@ if Jtrain is high anf Jcv is low then its high bias(underfitting)
 if Jtrain is low and Jcv is high the its hig variance(overfitting)
 also as the complecity increase Jcv decrease intially(as bias reduces) and then Jcv increase(variance increase).
 the idealy point is when Jcv is the least
+
+One good way to deal with high variance is regularization.
+Lambda is the parameter which decides this, in regularization section of the cost function.
+This helps to keep the size of weights low while fitting the data well in the model.
+for eg if Lambda is very large then the regularization term will try to keep the size of weights very low, 
+therby making the model having more bias compared to variance(underfit model). a very high lamda will result in a flat line(w=0)
+
+the other extreme lamda=0 will be verfitting as there is no regularization
+
+then lamda= intermediate value
+
+Hence cross validation can be used to go over different values of lamda and find the best value for test set
+
+
+
+
