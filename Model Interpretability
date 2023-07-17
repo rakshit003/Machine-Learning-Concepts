@@ -240,3 +240,10 @@ the distortions should be realistic enough of the order that they could be seen 
 it will les helpful if the generated dat is not representative of the test set
 
 for example using computer fonts to generate image of text data 
+
+
+***Data Centric Approc***
+
+This Approach mean focus more on the data rather than the model.
+Nowadays a lot of algorithm as are very good an ready to use , so sometimes its more fruitful to ivest more time in 
+create the right data for the model to improve its performance rather than improving code to improve perfromance
