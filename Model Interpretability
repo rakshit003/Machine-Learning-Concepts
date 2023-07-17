@@ -219,3 +219,7 @@ fixing High Bias
 - Getting more features
 - Adding polynomial features
 - decreasing lambda(regularization parameter)
+
+*****Error Analysis******
+
+Manually going through errors of misclassification and try to group them in common themes
