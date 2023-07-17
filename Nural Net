@@ -118,3 +118,9 @@ Advantages:
 The ReLU provides a continuous linear relationship. Additionally it has an 'off' range where the output is zero. 
 The "off" feature makes the ReLU a Non-Linear activation. 
 Why is this needed? This enables multiple units to contribute to to the resulting function without interfering.
+
+*********Regularization*****8
+
+It doesn't hurt to increase the size of NN so long as regularization is in place to avoid overfitting
+
+regularization can be done at every layer with parameter Kernal_Regularizer=L2(0.01)
