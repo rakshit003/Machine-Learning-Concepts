@@ -26,6 +26,7 @@ Step3: Return the data to the original order (undoing the shuffle from step 2).
        Now repeat step 2 with the next column in the dataset, until you have calculated the importance of each column.
 
 
+
 ****code*****
 import eli5
 from eli5.sklearn import PermutationImportance
@@ -168,3 +169,13 @@ Cross validation error
 
 Now check difference between Training error - Human error --- if this is high then we have hig bias problem(underfitting)
 Now check difference between Traing error and Cv Error --- if this is high then we have high variance problem(overfitting)
+
+eg:
+
+High Vairance
+if Baseline - trainig = 0.2%
+if Training - Cross V = 4%
+
+High Bias
+if Baseline - trainig = 4.4%
+if Training - Cross V = 0.5%
