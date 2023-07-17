@@ -224,3 +224,4 @@ fixing High Bias
 
 Manually going through errors of misclassification and try to group them in common themes
 This helps to prioritize which themes to spend time in fixing 
+fixing could involve bringing in more data of that theme or creating new features of that theme
