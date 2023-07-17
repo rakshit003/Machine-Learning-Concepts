@@ -156,4 +156,4 @@ the other extreme lamda=0 will be verfitting as there is no regularization
 then lamda= intermediate value
 
 Hence cross validation can be used to go over different values of lamda and find the best value for test set
-A good way to vary lamda is to start small(0.01) and keep doubling it
+A good way to vary lamda is to start small(0.01) and keep doubling it. This can bes use to measure Jtrain or Jcv
