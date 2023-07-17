@@ -190,4 +190,10 @@ This plots Jtrain and Jcv against size of the data set
 - And if size of data set increase CV Error reduces
 - J Cv is normally higher than the ztraining error
 
+In case of high bias, Jtrain and Jcv flatten out as training set size increase and very close to each other at high values,
+but their error at more data is high compared to baseline. Hence increase data will not help
+
+In case of high variance, JCv is much Higher than Jtrain even at relative higher data size but declines if we increase data.
+Jtrain might be lower than human error but difference btween Jcv and Jtrain is high
+Bringing in more data will help reduce error bewteen Jcv and Jtrain
 
