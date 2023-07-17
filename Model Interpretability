@@ -225,3 +225,8 @@ fixing High Bias
 Manually going through errors of misclassification and try to group them in common themes
 This helps to prioritize which themes to spend time in fixing 
 fixing could involve bringing in more data of that theme or creating new features of that theme
+
+for eg: If you are looking to add more data to improve performance of your model, and you have a lot of
+unlabeled data, and there is an option to manually label data then its better to do 
+error analysis first and identify the theme which has more occurance in erros , and then label the data
+for those set of examples. this will improve the performance faster
