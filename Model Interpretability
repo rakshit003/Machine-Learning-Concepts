@@ -161,6 +161,13 @@ A good way to vary lamda is to start small(0.01) and keep doubling it. This can 
 
 **judging learnig algo performance**
 
+1. Bias and Variance
+2. Error Analysis
+3. Learning curves
+
+in order of importance
+
+
 calculate below 3 erros
 
 Human level error(baselines(existing algo) error):
