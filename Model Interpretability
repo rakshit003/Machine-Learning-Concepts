@@ -197,3 +197,14 @@ In case of high variance, JCv is much Higher than Jtrain even at relative higher
 Jtrain might be lower than human error but difference btween Jcv and Jtrain is high
 Bringing in more data will help reduce error bewteen Jcv and Jtrain
 
+*****Fixing high bias vs variance****
+
+fixing High Variance
+- Reducing Number fo features
+- Get More training examples
+- Increasing Lambda(regularization parameter)
+
+fixing High Bias
+- Getting more features
+- Adding polynomial features
+- decreasing lambda(regularization parameter)
