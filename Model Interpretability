@@ -157,3 +157,14 @@ then lamda= intermediate value
 
 Hence cross validation can be used to go over different values of lamda and find the best value for test set
 A good way to vary lamda is to start small(0.01) and keep doubling it. This can bes use to measure Jtrain or Jcv
+
+**judging learnig algo performance**
+
+calculate below 3 erros
+
+Human level error(baselines(existing algo) error):
+Training error 
+Cross validation error
+
+Now check difference between Training error - Human error --- if this is high then we have hig bias problem(underfitting)
+Now check difference between Traing error and Cv Error --- if this is high then we have high variance problem(overfitting)
