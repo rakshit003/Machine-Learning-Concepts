@@ -237,4 +237,4 @@ for those set of examples. this will improve the performance faster
 Modifying the existing training example to create more examples, by either distorting it or transforming it in some form.
 This is highly used in Audio and Image ML problems.
 the distortions should be realistic enough of the order that they could be seen in the test set
-
+it will les helpful if the generated dat is not representative of the test set
