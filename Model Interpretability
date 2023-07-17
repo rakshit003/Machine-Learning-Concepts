@@ -223,3 +223,4 @@ fixing High Bias
 *****Error Analysis******
 
 Manually going through errors of misclassification and try to group them in common themes
+This helps to prioritize which themes to spend time in fixing 
