@@ -230,3 +230,9 @@ for eg: If you are looking to add more data to improve performance of your model
 unlabeled data, and there is an option to manually label data then its better to do 
 error analysis first and identify the theme which has more occurance in erros , and then label the data
 for those set of examples. this will improve the performance faster
+
+
+********Data Augmentation********
+
+Modifying the existing training example to create more examples, by either distorting it or transforming it in some form.
+This is highly used in Audio and Image ML problems
