@@ -124,3 +124,14 @@ Why is this needed? This enables multiple units to contribute to to the resultin
 It doesn't hurt to increase the size of NN so long as regularization is in place to avoid overfitting
 
 regularization can be done at every layer with parameter Kernal_regularizer=L2(0.01)
+
+*****Trabsfer learning******
+Reuse the ithe initial and hidden layers of an existing NN model, like multi class classfication of differnet image
+and only replace the output layer with your case specific classification
+
+there are 2 options of training such algo
+
+1. keep the copied layer parameters static and only retrain the output layer using stocastic/gradient/adam optimization
+2. train the entire NN by utilizing the initialized weights of initial and hidden layers
+
+option 1 is good when you have a small training set and option 2 when you have a large training set
