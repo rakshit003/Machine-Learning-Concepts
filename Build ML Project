@@ -9,3 +9,5 @@ Steps
 3. Train the Model - train mode, carry bias variance analysis , error analysis, possible requruire mode data -- have this loop through some time
 
 4. Deploy in production environment and maintain models
+
+Sometiems from Step 4 we can go back to step 2 or 3
