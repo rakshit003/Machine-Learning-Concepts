@@ -125,7 +125,7 @@ It doesn't hurt to increase the size of NN so long as regularization is in place
 
 regularization can be done at every layer with parameter Kernal_regularizer=L2(0.01)
 
-*****Trabsfer learning******
+*****Transfer learning******
 Reuse the ithe initial and hidden layers of an existing NN model, like multi class classfication of differnet image
 and only replace the output layer with your case specific classification
 
