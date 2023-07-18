@@ -1,1 +1,11 @@
+***Process of building ML and its cycle****
 
+Steps
+
+1. Scope - Define what are you going to work on
+
+2. Collect Data - decide what data is need andd labeling
+
+3. Train the Model - train mode, carry bias variance analysis , error analysis, possible requruire mode data -- have this loop through some time
+
+4. Deploy in production environment and maintain models
