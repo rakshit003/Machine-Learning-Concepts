@@ -135,3 +135,11 @@ there are 2 options of training such algo
 2. train the entire NN by utilizing the initialized weights of initial and hidden layers
 
 option 1 is good when you have a small training set and option 2 when you have a large training set
+
+Advantage is that one doese not need to label data or get many training examples. instead with small
+data set we can leverage the power of pretrained models and reuse the learning from them.
+
+This works for images because, the intial and middle layers of Image NN helps in idetifying 
+feartues like edges, corners,shapes which remaing common problem to decode acorss any image
+
+one limitation is that the input size of fine tuning should be same as the initial NN input size
