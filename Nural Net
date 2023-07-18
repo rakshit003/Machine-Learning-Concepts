@@ -127,7 +127,7 @@ regularization can be done at every layer with parameter Kernal_regularizer=L2(0
 
 *****Transfer learning******
 Reuse the ithe initial and hidden layers of an existing NN model, like multi class classfication of differnet image
-and only replace the output layer with your case specific classification
+and only replace the output layer with your case specific classification. This process is called fine tuning
 
 there are 2 options of training such algo
 
