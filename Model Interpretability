@@ -231,6 +231,12 @@ unlabeled data, and there is an option to manually label data then its better to
 error analysis first and identify the theme which has more occurance in erros , and then label the data
 for those set of examples. this will improve the performance faster
 
+**********
+example of model diagnostics:
+
+https://github.com/rakshit003/Machine-Learning-Concepts/blob/main/reference%20files/C2W3_Lab_02_Diagnosing_Bias_and_Variance.html
+
+*********
 
 ********Data Augmentation********
 
