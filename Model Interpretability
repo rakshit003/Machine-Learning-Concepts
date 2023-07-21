@@ -161,6 +161,8 @@ then lamda= intermediate value
 Hence cross validation can be used to go over different values of lamda and find the best value for test set
 A good way to vary lamda is to start small(0.01) and keep doubling it. This can bes use to measure Jtrain or Jcv
 
+plot Jcv again differrent values of lambda
+
 **judging learnig algo performance**
 
 1. Bias and Variance
