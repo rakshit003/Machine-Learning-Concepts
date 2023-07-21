@@ -143,8 +143,10 @@ For example, if your model made wrong predictions for 2 samples out of 5, then y
 
 if Jtrain is high anf Jcv is low then its high bias(underfitting)
 if Jtrain is low and Jcv is high the its hig variance(overfitting)
-also as the complecity increase Jcv decrease intially(as bias reduces) and then Jcv increase(variance increase).
+also as the complexity increase Jcv decrease intially(as bias reduces) and then Jcv increase(variance increase).
 the idealy point is when Jcv is the least
+
+plot Jcv and Jtrain against increasing complexity of the model and look for the point where Jcv is the lowest
 
 One good way to deal with high variance is regularization.
 Lambda is the parameter which decides this, in regularization section of the cost function.
