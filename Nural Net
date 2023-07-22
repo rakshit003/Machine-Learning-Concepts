@@ -143,3 +143,8 @@ This works for images because, the intial and middle layers of Image NN helps in
 feartues like edges, corners,shapes which remaing common problem to decode acorss any image
 
 one limitation is that the input size of fine tuning should be same as the initial NN input size
+
+
+******8example of building NN usecase******
+
+C2_W3_Assignment (2).ipynb
