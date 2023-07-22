@@ -59,6 +59,7 @@ Feature Enginnering
 
 
 ************Diagnostics***********
+example:: https://github.com/rakshit003/gh-pages/blob/main/C2W3_Lab_02_Diagnosing_Bias_and_Variance.ipynb
 
 Once the modelparameters are fit the training set the training error(Jtrain cost function error) is likely to be lower
 than the generalized error(Avg error on New examples)
@@ -238,7 +239,7 @@ for those set of examples. this will improve the performance faster
 **********
 example of model diagnostics:
 
-https://github.com/rakshit003/Machine-Learning-Concepts/blob/main/reference%20files/C2W3_Lab_02_Diagnosing_Bias_and_Variance.html
+https://github.com/rakshit003/gh-pages/blob/main/C2W3_Lab_02_Diagnosing_Bias_and_Variance.ipynb
 
 *********
 
