@@ -6,3 +6,5 @@ one class close to 1 or close to 0 makes it more pure and reduce entropy
 
 Hence in decision tree we minimize Entropy (Impurity fucntion) instead of cost function to learn the model
 Entropy= -plog(p) - (1-p)log(1-p).. if we plot this its a inverted parabola with peak at p=0.5
+
+Even Gini function also looks like this
