@@ -9,3 +9,6 @@ Entropy= -plog(p) - (1-p)log(1-p).. if we plot this its a inverted parabola with
 p is the fraction of instance of a class
 
 Even Gini function also looks like this
+
+In actual decision tree, entroy of both the nodes are done a weighted average so the bigger sample node gets more importance
+and the informaation gain is caculated by butracting the root node entropy with the wirghted average chid node entropy
