@@ -40,3 +40,10 @@ weighted variance is use to decide.
 
 And instead of information gain from root node. variance lost between is used as a measure by algorithm
 
+***** Ensamle of Trees****
+
+Issue with single decision tree is that even if change make changes to minority of examples. the tree scruture can change
+as a new feature can become the main root node of the tree . Hence its very sensitive of change in input.
+Where as if we train a bunch of decision trea and use a voting classifier to get the predictions , it turns out to be more
+stable.
+
