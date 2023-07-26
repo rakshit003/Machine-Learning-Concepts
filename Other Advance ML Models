@@ -4,6 +4,8 @@ Idea is to maximize Purity during everfy node split. Purity means increasing the
 Or minimize Impurtity(Entropy). Hence close the mix of 2 classes is to 0.5 its more impure and if a fraction of presence of 
 one class close to 1 or close to 0 makes it more pure and reduce entropy
 
+Decision tree is a recursive alogirthm instead of gradient decent learning
+
 Hence in decision tree we minimize Entropy (Impurity fucntion) instead of cost function to learn the model
 Entropy= -plog(p) - (1-p)log(1-p).. if we plot this its a inverted parabola with peak at p=0.5
 p is the fraction of instance of a class
