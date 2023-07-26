@@ -1,5 +1,7 @@
 ************Decision Tree************
 
+****Classification Decision Tree****
+
 Idea is to maximize Purity during everfy node split. Purity means increasing the presense of a given class in the mode.
 Or minimize Impurtity(Entropy). Hence close the mix of 2 classes is to 0.5 its more impure and if a fraction of presence of 
 one class close to 1 or close to 0 makes it more pure and reduce entropy
@@ -25,3 +27,14 @@ for a give row one of the feature will have a value 1, which means that feature 
 Hence the name one hot encoding.Advantage is for spliting a node it will make a binary decision for each feature
 
 This is also work with NN or Logistic or linear regression training
+
+
+*****Regression Decision Tree*****
+
+In Regression tree the value of a node is decised by the average value of the priction numeri variable of the samples in that node
+for learning process Instead of Entropy(impurity) , variance of the node is used as a threshold. feature which results in least
+weighted variance is use to decide.
+
+And instead of information gain from root node. variance lost between is used as a measure by algorithm
+
+
