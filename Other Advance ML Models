@@ -47,3 +47,13 @@ as a new feature can become the main root node of the tree . Hence its very sens
 Where as if we train a bunch of decision trea and use a voting classifier to get the predictions , it turns out to be more
 stable.
 
+*****Method== Sampling with Replacement*****
+create multiple data set for different tree by fecthing samples with replacement (this will result in duplicate training examples which is fine)
+As the data set changes ,with that the feature of the node also change as the new entropy might be different because of the new variation in dataset
+
+multiple ways to ensamble
+
+Random Forrest: Sample with replacement and create same size dataset B times to create B trees.  B  typically could be 64-128.
+This is also called Bagged Decision Tree. This concept is further extended by not chosing from all features avialable
+but instead only choose from n<N features becasue this will help in creating different type of decision trees.
+
