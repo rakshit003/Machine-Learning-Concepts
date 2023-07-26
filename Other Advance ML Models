@@ -63,3 +63,4 @@ Idea is to instead of picking the samples in the new mag randomly, give more pro
 miscalssified examples from periously built trees, hence the subsecquent tree built will have training set of more samples of misclassified 
 records from ensamle of built so far. This process is called boosting
 
+XG boost is very good for prediction in lines with NN
