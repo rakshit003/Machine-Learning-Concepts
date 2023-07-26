@@ -15,6 +15,10 @@ Even Gini function also looks like this
 In actual decision tree, entroy of both the nodes are done a weighted average so the bigger sample node gets more importance
 and the informaation gain is caculated by butracting the root node entropy with the wirghted average chid node entropy
 
+Information gain is calculated firs for every feature and then among different feature to decide
+which feature and what value of the feature should be used for the split
+
+
 if the ctaegorical feature has multiple values then its better to use one hot encoding, which means for very category
 we create a new feature and mark it as 1 where that category exist and 0 where is does not.
 for a give row one of the feature will have a value 1, which means that feature is hot for the record.
