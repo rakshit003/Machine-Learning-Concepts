@@ -28,6 +28,9 @@ Hence the name one hot encoding.Advantage is for spliting a node it will make a 
 
 This is also work with NN or Logistic or linear regression training
 
+In case of continuous feature, data of n points, choose n-1 midpoints between n successive points and find
+information gain at that point, as a result fin the midpoint with the most information gain
+
 
 *****Regression Decision Tree*****
 
@@ -36,5 +39,4 @@ for learning process Instead of Entropy(impurity) , variance of the node is used
 weighted variance is use to decide.
 
 And instead of information gain from root node. variance lost between is used as a measure by algorithm
-
 
