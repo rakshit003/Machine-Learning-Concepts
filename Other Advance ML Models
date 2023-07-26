@@ -53,7 +53,13 @@ As the data set changes ,with that the feature of the node also change as the ne
 
 multiple ways to ensamble
 
-Random Forrest: Sample with replacement and create same size dataset B times to create B trees.  B  typically could be 64-128.
+Random Forrest: 
+Sample with replacement and create same size dataset B times to create B trees.  B  typically could be 64-128.
 This is also called Bagged Decision Tree. This concept is further extended by not chosing from all features avialable
 but instead only choose from n<N features becasue this will help in creating different type of decision trees.
+
+XG Boost: Xtreme gradient boosting
+Idea is to instead of picking the samples in the new mag randomly, give more probablity of picking to 
+miscalssified examples from periously built trees, hence the subsecquent tree built will have training set of more samples of misclassified 
+records from ensamle of built so far
 
