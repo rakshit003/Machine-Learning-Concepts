@@ -157,5 +157,7 @@ where series of computations is broken down by individual arithmentic blocks and
 is calulated backwards for each block untill we get the derivate with respect to parameters(W and b)
 This  derivate is used to update the weights in next iteration
 
-Overall computation needed is N(number of nodes) + P(number of paramters)
+Overall computation needed is N(number of nodes) + P(number of paramters) if we use computational graphs instead of caluclating
+each parameter derivatives independently , as compuational graph  helps in this calculation of derivative of each parameter
+in single iteration
 
