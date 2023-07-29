@@ -148,3 +148,14 @@ one limitation is that the input size of fine tuning should be same as the initi
 ******8example of building NN usecase******
 
 https://github.com/rakshit003/gh-pages/blob/736b2918aad195c49ce65eb45d8394a577d3521b/C2_W3_Assignment%20(2).ipynb
+
+
+********learnig algorithm*****
+
+learning is done in NN using back propagation of computational graphs
+where series of computations is broken down by individual arithmentic blocks and partial derivative of the cost function
+is calulated backwards for each block untill we get the derivate with respect to parameters(W and b)
+This  derivate is used to update the weights in next iteration
+
+Overall computation needed is N(number of nodes) + P(number of paramters)
+
