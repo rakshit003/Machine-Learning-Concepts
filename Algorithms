@@ -16,8 +16,8 @@ Hence based on where we start , we can endup in different local minimas in a gra
 
 in every step Parmeter gets updated in below manner
 
-Wnext = Wold - & d/dw (J(W,b)) -- partial derivate
-Bnext = Bold - & d/dw (J(W,b)) -- Partial Derivate
+Wnext = Wold - & d/dw (J(W,b)) -- partial derivative
+Bnext = Bold - & d/dw (J(W,b)) -- Partial Derivative
 
 where &(alpha) is learning rate, which determines how bigh of a step we take the baby step downhill
 d/dw is the derivative term with respect to cost function. This also determines the direction and size of the baby step
