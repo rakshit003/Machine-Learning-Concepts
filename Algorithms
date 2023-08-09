@@ -14,3 +14,16 @@ like we get in nural net.
 At a give moment in the park , gradient decent asks in what direction should i take the next baby step in order to decent the steepest.
 Hence based on where we start , we can endup in different local minimas in a gradient decent algorithm if we don't have a bow shape cost function.
 
+in every step Parmeter gets updated in below manner
+
+Wnext = Wold - & d/dw (J(W,b)) -- partial derivate
+Bnext = Bold - & d/dw (J(W,b)) -- Partial Derivate
+
+where &(alpha) is learning rate, which determines how bigh of a step we take the baby step downhill
+d/dw is the derivative term with respect to cost function. This also determines the direction and size of the baby step
+
+Note: All the parameters get updated parellaly which means B gets updated with old W values in place abd vice versa
+
+After implementing multiple steps , we can stop the process if J doesn't change as much to cause a significant difference
+
+
