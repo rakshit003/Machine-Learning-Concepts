@@ -1,0 +1,9 @@
+***Gradient Decent****
+
+Gradient Decent helps you arrive at the lost value of a cost function but adjusting its parmaters in stepwise systematic way.
+J(W,b) function needs to be minimized with respect to parameters W(w1,w2,w3..wn) and b. Gradient decent uses derivatives at
+each step to indentify the steepest decent at that moment and update the parameter most which causes the steepest decent
+
+For linear regression J(w,b) is a squared error function hence its shape is a bow or hammock shape, which always have a single minima
+for J(w,b) will not always have a bow/hammock shape , as a result it could have local and global minima as well, for eg the image of
+a hill range like structure in a 3d plot is not a squared error cost function since it has many rough and troughs
