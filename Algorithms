@@ -11,4 +11,6 @@ In Nural Net we get multiple minimas in cost function
 for eg the image of a hill range(or a golf park) like structure in a 3d plot is not a squared error cost function since it has many rough and troughs
 like we get in nural net.
 
-At a give moment in the park , gradient decent asks in what direction should i take the next baby step in order to decent the steepest
+At a give moment in the park , gradient decent asks in what direction should i take the next baby step in order to decent the steepest.
+Hence based on where we start , we can endup in different local minimas in a gradient decent algorithm if we don't have a bow shape cost function.
+
