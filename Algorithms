@@ -19,8 +19,13 @@ in every step Parmeter gets updated in below manner
 Wnext = Wold - & d/dw (J(W,b)) -- partial derivative
 Bnext = Bold - & d/dw (J(W,b)) -- Partial Derivative
 
-where &(alpha) is learning rate, which determines how bigh of a step we take the baby step downhill
+where &(alpha) is learning rate, which determines how bigh of a step we take the baby step downhill.
+
 d/dw is the derivative term with respect to cost function. This also determines the direction and size of the baby step
+This derivative is nothing but the slope of the curve at that point time. If bigger is the slope the amplitude of slope (y/x) is higher
+which means that parameter will get updated the with biggest value whoes slope is the highest. Hence every parameter will get shifted
+by different amounts depending on what slope they have in the cost function. So gradient decent auto adjust the paremeter decrement based
+on value of derivate of that parameter
 
 Note: All the parameters get updated parellaly(simultaneos update) which means B gets updated with old W values in place abd vice versa
 
