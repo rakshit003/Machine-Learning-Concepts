@@ -22,7 +22,7 @@ Bnext = Bold - & d/dw (J(W,b)) -- Partial Derivate
 where &(alpha) is learning rate, which determines how bigh of a step we take the baby step downhill
 d/dw is the derivative term with respect to cost function. This also determines the direction and size of the baby step
 
-Note: All the parameters get updated parellaly which means B gets updated with old W values in place abd vice versa
+Note: All the parameters get updated parellaly(simultaneos update) which means B gets updated with old W values in place abd vice versa
 
 After implementing multiple steps , we can stop the process if J doesn't change as much to cause a significant difference
 
