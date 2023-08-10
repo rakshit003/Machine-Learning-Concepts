@@ -40,5 +40,5 @@ After implementing multiple steps , we can stop the process if J doesn't change 
 
 The gradient decent by design takes smaller baby as we approach the local minimun because the slope keeps on reducing. Hence
 it it more iterations to reach if you are close to local minimum than if you are very far from minimum and want to reach closer
-to local minimun
+to local minimun, Even if &(learning rate) is kept to a fixed value
 
