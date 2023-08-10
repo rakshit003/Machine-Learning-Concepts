@@ -52,3 +52,9 @@ Also, if you are in some local minima it is natuarlly hard for gradient decent o
 has a narrow view of the curve and might think the local minima is the globala minima. for eg. if it reaches local minima
 then slope will be 0 . which means with every iteration step w will not update any further as derivate will be 0 always.
 
+**Batch vs Stocastic Gradient Decent****
+
+In Batch GD, for every iterations we find the derivate  by summing up for all training examples instead of a subset of training data
+whereas in Stocastic GD inorder to make it run faster we find derivate by summing only a random subset of training examples
+
+
