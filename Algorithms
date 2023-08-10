@@ -37,8 +37,18 @@ After implementing multiple steps , we can stop the process if J doesn't change 
 
 
 **Further explaination***
+there are few things to note in gradient decent Algorithm
 
 The gradient decent by design takes smaller baby as we approach the local minimun because the slope keeps on reducing. Hence
 it it more iterations to reach if you are close to local minimum than if you are very far from minimum and want to reach closer
 to local minimun, Even if &(learning rate) is kept to a fixed value
+
+If &(Learning rate) is too small then the baby steps are very small and it takes a lot of iterations to reach to local minima.
+And if & is too large , baby steps are large and there are chances it might overshoot the local minima and if it reaches a higher
+slope point then the next step is even larger and ultimately the Cost keeps on increasing and algoritm might even diverge instead
+of converging
+
+Also, if you are in some local minima it is natuarlly hard for gradient decent o cross the local minima as the algorithm 
+has a narrow view of the curve and might think the local minima is the globala minima. for eg. if it reaches local minima
+then slope will be 0 . which means with every iteration step w will not update any further as derivate will be 0 always.
 
