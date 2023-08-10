@@ -57,4 +57,4 @@ then slope will be 0 . which means with every iteration step w will not update a
 In Batch GD, for every iterations we find the derivate  by summing up for all training examples instead of a subset of training data
 whereas in Stocastic GD inorder to make it run faster we find derivate by summing only a random subset of training examples
 In Fact Pure Stocastic GD only use 1 example in each iteration. The one that uses mini batch is called mini-batch SGD
-
+Baby steps becomes jerky and it could help to overshoot local minima as well
