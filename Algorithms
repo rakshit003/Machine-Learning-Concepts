@@ -36,3 +36,9 @@ Note: All the parameters get updated parellaly(simultaneos update) which means B
 After implementing multiple steps , we can stop the process if J doesn't change as much to cause a significant difference
 
 
+**Further explaination***
+
+The gradient decent by design takes smaller baby as we approach the local minimun because the slope keeps on reducing. Hence
+it it more iterations to reach if you are close to local minimum than if you are very far from minimum and want to reach closer
+to local minimun
+
