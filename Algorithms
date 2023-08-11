@@ -1,5 +1,7 @@
 ***Gradient Decent****
 
+ref: https://github.com/rakshit003/Machine-Learning-Concepts/blob/main/reference%20files/C1_W1_Lab04_Gradient_Descent_Soln.html
+
 Gradient Decent helps you arrive at the cost value of a cost function but adjusting its parmaters in stepwise systematic way.
 J(W,b) function needs to be minimized with respect to parameters W(w1,w2,w3..wn) and b. Gradient decent uses derivatives at
 each step to indentify the steepest decent at that moment and update the parameter most which causes the steepest decent
