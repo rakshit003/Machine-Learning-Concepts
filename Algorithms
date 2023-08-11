@@ -41,7 +41,8 @@ there are few things to note in gradient decent Algorithm
 
 The gradient decent by design takes smaller baby as we approach the local minimun because the slope keeps on reducing. Hence
 it it more iterations to reach if you are close to local minimum than if you are very far from minimum and want to reach closer
-to local minimun, Even if &(learning rate) is kept to a fixed value
+to local minimun, Even if &(learning rate) is kept to a fixed value. Hence , the intial steps taken by gradient decent are very 
+large since the gradient is high and last many steps are small(and smaller is the cost reduction at the end).
 
 If &(Learning rate) is too small then the baby steps are very small and it takes a lot of iterations to reach to local minima.
 And if & is too large , baby steps are large and there are chances it might overshoot the local minima and if it reaches a higher
