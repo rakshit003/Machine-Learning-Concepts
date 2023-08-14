@@ -15,6 +15,9 @@ How Vectorization is faster?
 multiplication of numbers can be performed in parellel and laters summed up in a single step.
 Hence it scales well with large dataset
 
+Where as for loop does acummulated sum, where in every loop iteration gthe accumulated count gets
+updated
+
 
 
 
