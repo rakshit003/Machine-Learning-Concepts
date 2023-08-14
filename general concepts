@@ -43,4 +43,4 @@ mean normalization --> (x- Mean)/max-min
 Z normalization -->  (x- Mean)/ Sigma(SD)
 
 generally , features should scale somewhere around -1 to 1 or even -3 to +3 is also fine
-
+If a features is naturaaly lying beftween these values , it might not need scaling, although no harm in in scaling
