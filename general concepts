@@ -12,7 +12,8 @@ for j in range(0 to 16 features):
  f= f w[j]*x[j]
 
 How Vectorization is faster?
-multiplication of numbers can be performed in parellel and laters summed up in a single step
+multiplication of numbers can be performed in parellel and laters summed up in a single step.
+Hence it scales well with large dataset
 
 
 
