@@ -37,5 +37,10 @@ provides very little change to f(or the cost function) , which means slope of th
 to x1. As a result while running gradient dec(decent it will take a long time to reach the minima as the next steps keep on jumping
 back and forth before reaching the minima(because if slope of x1 is large it can result in overshooting)
 
+techniques to scale
 
+mean normalization --> (x- Mean)/max-min
+Z normalization -->  (x- Mean)/ Sigma(SD)
+
+generally , features should scale somewhere around -1 to 1 or even -3 to +3 is also fine
 
