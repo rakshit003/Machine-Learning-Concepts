@@ -18,6 +18,24 @@ Hence it scales well with large dataset
 Where as for loop does acummulated sum, where in every loop iteration gthe accumulated count gets
 updated
 
+*******Scaling of variables***********
+
+How does scaling impact ?
+
+f= w1x1 + w2x2 + b
+
+if x1 range from 1-6 (like number of bedrooms)
+and x2 range from 200-3000 (like size of the house)
+
+then upon learning the weights of x2 would be relative much smaller than weights of x1 inorder to arrive at the right output value.
+This impacts the gradient decent as below
+
+If we plot a contoure plot wrt these variables. We will see an oval shaped area which has a huge height and very narrow width.
+as height is resultant of ranges in x2 and width in small range in x1.
+which means a small change in x1 result in a large change in f (or even the cost function) where as a small change in x2
+provides very little change to f(or the cost function) , which means slope of the curve wrt x2 is very gradual when compared
+to x1. As a result while running gradient dec(decent it will take a long time to reach the minima as the next steps keep on jumping
+back and forth before reaching the minima(because if slope of x1 is large it can result in overshooting)
 
 
 
