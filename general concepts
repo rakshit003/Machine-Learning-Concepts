@@ -35,7 +35,8 @@ as height is resultant of ranges in x2 and width in small range in x1.
 which means a small change in x1 result in a large change in f (or even the cost function) where as a small change in x2
 provides very little change to f(or the cost function) , which means slope of the curve wrt x2 is very gradual when compared
 to x1. As a result while running gradient dec(decent it will take a long time to reach the minima as the next steps keep on jumping
-back and forth before reaching the minima(because if slope of x1 is large it can result in overshooting)
+back and forth before reaching the minima(because if slope of x1 is large it can result in overshooting).
+This will make GD to run slowly
 
 techniques to scale
 
@@ -44,3 +45,4 @@ Z normalization -->  (x- Mean)/ Sigma(SD)
 
 generally , features should scale somewhere around -1 to 1 or even -3 to +3 is also fine
 If a features is naturaaly lying beftween these values , it might not need scaling, although no harm in in scaling
+like -100 to 100 or -.0001 to 0.00001 would need to be rescaling
