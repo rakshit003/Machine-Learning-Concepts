@@ -57,7 +57,8 @@ then slope will be 0 . which means with every iteration step w will not update a
 
 **
 one way to check GD is converging is by plotting cost function against internal iterations of GD.
-J should decrease after every iteration, if it increases the &(alpha) is chosen poorly
+J should decrease after every iteration, if it increases the &(alpha) is chosen poorly.
+You can also set a threshold epsilon(~0.001) . if decrease in cost between iteration is epsilon then stop convergence
 
 **Batch vs Stocastic Gradient Decent****
 
