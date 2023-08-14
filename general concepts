@@ -6,5 +6,14 @@ f=w.x+b
 dot prduct is nothing but sum of product of corresponding numbes in each vectors.
 
 this is much more efficent to implement and can be implemented in parellal with help of GPUs
+or else we have to implement it using for loops which is much slower. like below
 
-or else we have to implement it using for loops which is much slower
+for j in range(0 to 16 features):
+ f= f w[j]*x[j]
+
+How Vectorization is faster?
+multiplication of numbers can be performed in parellel and laters summed up in a single step
+
+
+
+
