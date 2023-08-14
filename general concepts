@@ -1,0 +1,10 @@
+*****vectorization******
+
+f= w1x1+w2x2.....wnxn + b
+can be implemented as dot prodcut of w and x
+f=w.x+b
+dot prduct is nothing but sum of product of corresponding numbes in each vectors.
+
+this is much more efficent to implement and can be implemented in parellal with help of GPUs
+
+or else we have to implement it using for loops which is much slower
