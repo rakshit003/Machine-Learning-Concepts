@@ -59,7 +59,11 @@ then slope will be 0 . which means with every iteration step w will not update a
 one way to check GD is converging is by plotting cost function against internal iterations of GD.
 Cost function J should decrease after every single iteration if learning rate is small, if it increases the &(alpha) is chosen poorly.
 You can also set a threshold epsilon(~0.001) . if decrease in cost between iteration is epsilon then stop convergence.
-Even after setting alpha to very very small the J is not decreasing this means there is something problem with code
+Even after setting alpha to very very small the J is not decreasing this means there is something problem with code.
+
+One techniqure is to start with leanring rate = 0.001, 0.003 , 0.01 ... (multiples of 3)
+and then plot Learning curve so you find the value that is too small and the value is too large and then find the largest
+possible value which results in decreasing J so alorithm can converge faster.
 
 **Batch vs Stocastic Gradient Decent****
 
