@@ -55,6 +55,9 @@ Also, if you are in some local minima it is natuarlly hard for gradient decent o
 has a narrow view of the curve and might think the local minima is the globala minima. for eg. if it reaches local minima
 then slope will be 0 . which means with every iteration step w will not update any further as derivate will be 0 always.
 
+During learning if we see a weight switching it sign in evry iteration then it means it is ossiclating across the minima.
+Hence we need to decrease the &(learning rate) to let it not oscliate
+
 **
 one way to check GD is converging is by plotting cost function against internal iterations of GD.
 Cost function J should decrease after every single iteration if learning rate is small, if it increases the &(alpha) is chosen poorly.
