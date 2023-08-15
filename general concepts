@@ -50,4 +50,6 @@ like -100 to 100 or -.0001 to 0.00001 would need to be rescaling
 ***Feature engineering ***
 
 Using intuition to combine features together to build a more reliable feature for the model
+Polynomial regresion involves manipulating feature by increasing the polynomial degree of the feature.
 
+Note, feature scaling becomes very important when doing polunomial regression as the relative range will vary 
