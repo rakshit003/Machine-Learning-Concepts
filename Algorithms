@@ -56,7 +56,8 @@ has a narrow view of the curve and might think the local minima is the globala m
 then slope will be 0 . which means with every iteration step w will not update any further as derivate will be 0 always.
 
 During learning if we see a weight switching it sign in evry iteration then it means it is ossiclating across the minima.
-Hence we need to decrease the &(learning rate) to let it not oscliate
+Hence we need to decrease the &(learning rate) to let it not oscliate. One reason of oscilalations could be no scalling
+done of features
 If for a weight its derivate is reducing without changing its sign and eventually ending up in almost zero value,
  then it seems to be converging for that gradient
 
