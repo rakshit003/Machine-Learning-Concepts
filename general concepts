@@ -71,4 +71,5 @@ Let's review this idea:
 -less weight value implies less important/correct feature, and in extreme, when the weight becomes zero or very close to zero, the associated feature is not useful in fitting the model to the data.
 -if lets say the weight associated with the  𝑥2 feature is much larger than the weights for 𝑥 or 𝑥3 it is the most useful in fitting the data.
 
+Another way to think about it is, Ouput is Linearly related to x^2 instead of x. hence it will assign more weight to x^2 feature.
 
