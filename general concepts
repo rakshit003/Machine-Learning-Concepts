@@ -75,4 +75,6 @@ Another way to think about it is, Ouput is Linearly related to x^2 instead of x.
 
 Even very complex function like cos/sign  can be modeled with gradient decent provided enough level of polynomial degrees
 are aviablae in the input output equation.
+Which means even if the underlying relationship between input and output data is very complex.
+GD is capable enough to model the parameters to match the relationship equation.
 
