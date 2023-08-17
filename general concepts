@@ -53,3 +53,22 @@ Using intuition to combine features together to build a more reliable feature fo
 Polynomial regresion involves manipulating feature by increasing the polynomial degree of the feature.
 
 Note, feature scaling becomes very important when doing polunomial regression as the relative range will vary 
+
+**Polynomial features
+
+sometimes relationship of output with a variable is not linear
+for eg: house price are related to its area , but maybe it penalizes very small houses or may not give enough price to very large houses
+as well.which means the linear effect will taper off if area is very small or very large.
+In that case a polynomial area feature would give a better result.
+
+If we keep on adding multiple polynomial degrees in the equation , gradient will automaitcally figure out to assign the right weight
+to a specific polynomial term and if run for a longer time other polynomial might get zero weights.
+Gradient descent is picking the 'correct' features for us by emphasizing its associated parameter
+
+Let's review this idea:
+
+-Intially, the features were re-scaled so they are comparable to each other
+-less weight value implies less important/correct feature, and in extreme, when the weight becomes zero or very close to zero, the associated feature is not useful in fitting the model to the data.
+-if lets say the weight associated with the  𝑥2 feature is much larger than the weights for 𝑥 or 𝑥3 it is the most useful in fitting the data.
+
+
