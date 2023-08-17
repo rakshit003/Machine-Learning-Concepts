@@ -73,3 +73,6 @@ Let's review this idea:
 
 Another way to think about it is, Ouput is Linearly related to x^2 instead of x. hence it will assign more weight to x^2 feature.
 
+Even very complex function like cos/sign  can be modeled with gradient decent provided enough level of polynomial degrees
+are aviablae in the input output equation.
+
