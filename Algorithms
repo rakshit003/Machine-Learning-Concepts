@@ -21,6 +21,21 @@ in every step Parmeter gets updated in below manner
 Wnext = Wold - & d/dw (J(W,b)) -- partial derivative
 Bnext = Bold - & d/dw (J(W,b)) -- Partial Derivative
 
+As described in the lecture videos, the gradient descent algorithm is:
+
+/**************
+repeat until convergence:{𝑏:=𝑏−𝛼∂𝐽(𝑤,𝑏)∂𝑏𝑤:=𝑤−𝛼∂𝐽(𝑤,𝑏)∂𝑤}
+where, parameters  𝑤,𝑏
+  are both updated simultaniously and where
+∂𝐽(𝑤,𝑏)∂𝑏=1𝑚∑𝑖=0𝑚−1(𝑓𝑤,𝑏(𝑥(𝑖))−𝑦(𝑖))
+∂𝐽(𝑤,𝑏)∂𝑤=1𝑚∑𝑖=0𝑚−1(𝑓𝑤,𝑏(𝑥(𝑖))−𝑦(𝑖))𝑥(𝑖)
+m is the number of training examples in the dataset
+𝑓𝑤,𝑏(𝑥(𝑖))
+  is the model's prediction, while  𝑦(𝑖)
+ , is the target value
+You will implement a function called compute_gradient which calculates  ∂𝐽(𝑤)∂𝑤
+ ,  ∂𝐽(𝑤)∂𝑏
+***********/
 
 where d/dw: 
 is the derivative term with respect to cost function. This also determines the direction and size of the baby step
