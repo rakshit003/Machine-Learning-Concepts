@@ -73,6 +73,31 @@ possible value which results in decreasing J so alorithm can converge faster.
 
 **Batch vs Stocastic Gradient Decent****
 
+
+
+
+
+
+*********linear regression************
+
+eg and steps of LR Model
+The model function for linear regression, which is a function that maps from x (city population) to y (your restaurant's monthly profit for that city) is represented as
+𝑓𝑤,𝑏(𝑥)=𝑤𝑥+𝑏
+ 
+To train a linear regression model, you want to find the best  (𝑤,𝑏)parameters that fit your dataset.
+To compare how one choice of  (𝑤,𝑏)is better or worse than another choice, you can evaluate it with a cost function  𝐽(𝑤,𝑏)
+𝐽 is a function of  (𝑤,𝑏)
+ . That is, the value of the cost  𝐽(𝑤,𝑏)
+  depends on the value of  (𝑤,𝑏)
+ .The choice of  (𝑤,𝑏)
+  that fits your data the best is the one that has the smallest cost  𝐽(𝑤,𝑏).
+
+To find the values  (𝑤,𝑏) that gets the smallest possible cost  𝐽(𝑤,𝑏),you can use a method called gradient descent.
+With each step of gradient descent, your parameters  (𝑤,𝑏) come closer to the optimal values that will achieve the lowest cost  𝐽(𝑤,𝑏)
+ .
+The trained linear regression model can then take the input feature  𝑥(city population) and output a prediction  𝑓𝑤,𝑏(𝑥)
+(predicted monthly profit for a restaurant in that city).
+
 In Batch GD, for every iterations we find the derivate  by summing up for all training examples instead of a subset of training data
 whereas in Stocastic GD inorder to make it run faster we find derivate by summing only a random subset of training examples
 In Fact Pure Stocastic GD only use 1 example in each iteration. The one that uses mini batch is called mini-batch SGD
