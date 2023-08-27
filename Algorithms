@@ -123,3 +123,7 @@ Baby steps becomes jerky(as the graient is jerky) and it could help to overshoot
 Linear Regression can be used in binary classification by using a threshold to decide the binary output
 but problem is if a data point is skewed way out of on the right or left then the line will fit incorrectly
 as it tries to minimize the error of the extreme data point
+
+Hence we use Logistic regression
+In logistic regression instead of using linear line we use sigmoid function which limits its values betwee 0 and 1
+it clips the linear line such if the more bigger or smaller the input variable becomes it get closer to the extreme values (0 & 1).
