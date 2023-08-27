@@ -131,4 +131,5 @@ Output of logit function can me thought of as a probability rather than the actu
 
 Decision boundry is when the linear line eliment of sigmoid is 0. as when this is >0 it makes z >0.5 and viceversa
 
-Decision boundary can be nonlinear if input variables are polynomial terms
+Decision boundary can be nonlinear if input variables are polynomial terms. This will help in fitting non linear
+data by using polynomial features
