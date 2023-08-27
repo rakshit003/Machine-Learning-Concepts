@@ -127,3 +127,4 @@ as it tries to minimize the error of the extreme data point
 Hence we use Logistic regression
 In logistic regression instead of using linear line we use sigmoid function which limits its values betwee 0 and 1
 it clips the linear line such if the more bigger or smaller the input variable becomes it get closer to the extreme values (0 & 1).
+Output of logit function can me thought of as a probability rather than the actual output lable(0 or 1)
