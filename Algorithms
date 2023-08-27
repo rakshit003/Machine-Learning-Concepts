@@ -117,3 +117,9 @@ In Batch GD, for every iterations we find the derivate  by summing up for all tr
 whereas in Stocastic GD inorder to make it run faster we find derivate by summing only a random subset of training examples
 In Fact Pure Stocastic GD only use 1 example in each iteration. The one that uses mini batch is called mini-batch SGD
 Baby steps becomes jerky(as the graient is jerky) and it could help to overshoot local minima as well
+
+
+********Logistic Regression*************
+Linear Regression can be used in binary classification by using a threshold to decide the binary output
+but problem is if a data point is skewed way out of on the right or left then the line will fit incorrectly
+as it tries to minimize the error of the extreme data point
