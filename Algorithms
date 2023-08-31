@@ -133,3 +133,8 @@ Decision boundry is when the linear line eliment of sigmoid is 0. as when this i
 
 Decision boundary can be nonlinear if input variables are polynomial terms. This will help in fitting non linear
 data by using polynomial features
+
+Cost function:
+in LR, we don't want to use squared error cost func . Beacause Square error will not give us a convex function since the input is transformed
+to a logit input. Hence there will not be a defined global minima.
+
