@@ -138,3 +138,12 @@ Cost function:
 in LR, we don't want to use squared error cost func . Beacause Square error will not give us a convex function since the input is transformed
 to a logit input. Hence there will not be a defined global minima.
 
+Loss function tells us how well we do on 1 training examples , by summing up loss for all training examples we get the cost function
+Inorder to result in a convex cost function, LR has a log loss
+for Yactual=1 loss = -log(Ypred)
+for Yactual=0 loss = -Log(1-Ypred)
+
+Note: logit function will output values between 0 and 1
+Both of above expression incentivise the loss to be closer to 0 if Ypred is equal to Yactual
+and disincentivies in an exponetial manner if difference between actual and pred is higher.. It can go to infinity if differece is 1
+
