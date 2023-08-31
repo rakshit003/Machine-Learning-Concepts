@@ -137,6 +137,7 @@ data by using polynomial features
 Cost function:
 in LR, we don't want to use squared error cost func . Beacause Square error will not give us a convex function since the input is transformed
 to a logit input. Hence there will not be a defined global minima.
+Logistic regression requires a cost function more suitable to its non-linear nature. This starts with a Loss function. This is described below.
 
 Loss function tells us how well we do on 1 training examples , by summing up loss for all training examples we get the cost function
 Inorder to result in a convex cost function, LR has a log loss
