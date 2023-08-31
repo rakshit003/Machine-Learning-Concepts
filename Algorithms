@@ -148,4 +148,4 @@ Note: logit function will output values between 0 and 1
 Both of above expression incentivise the loss to be closer to 0 if Ypred is equal to Yactual
 and disincentivies in an exponetial manner if difference between actual and pred is higher.. It can go to infinity if differece is 1
 
-For this kind of loss function, the cost function comes out to be convex
+For this kind of loss function, the cost function comes out to be convex(not exactly a bowl like we have in LR, but similar form)
