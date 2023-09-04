@@ -89,4 +89,9 @@ Its not neccessary to regularize 'b' parameter
 
 Alternate to regularization to avoid overfitting is by increadsing data or feature selection.
 
+Regularization is done by adding lambda parameter which parameterize the (sum of square of all weights except b)
 
+So when GD is minimizing , the first term will help in minimizing the error as usual , while the second(lambda) term will help 
+in minimizing overfitting by keeping the weights values in check. Because if weights are high which makes their squared 
+term high and increase the overall cost. Hence in order to keep the cost function low, GD should reduce the error 
+while keeping the weight size low
