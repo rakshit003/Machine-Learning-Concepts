@@ -98,3 +98,9 @@ So when GD is minimizing , the first term will help in minimizing the error as u
 in minimizing overfitting by keeping the weights values in check. Because if weights are high which makes their squared 
 term high and increase the overall cost. Hence in order to keep the cost function low, GD should reduce the error 
 while keeping the weight size low
+
+ L2 regularization takes the square of the weights, so the cost of outliers present in the data increases exponentially. 
+L1 regularization takes the absolute values of the weights, so the cost only increases linearly. 
+
+L2 is more robust but will cost efficent in calculation
+
