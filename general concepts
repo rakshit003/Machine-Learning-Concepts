@@ -78,3 +78,10 @@ are aviablae in the input output equation.
 Which means even if the underlying relationship between input and output data is very complex.
 GD is capable enough to model the parameters to match the relationship equation.
 
+**********Regularization****************
+
+Regularization helps you avoid overfitting by keeping the weights of the variables in check without totally eliminating the variable
+Hence you don't need to do a feature selection and regularization can work but itself by reducing an imapct of a variable by tweeking its 
+weights automatically
+For eg, if the weight of a polynomial variable is very large which is causing the overfitting, by adding a regularization 
+term in the cost function . It will help tweek the value of that parameter to very low
