@@ -104,3 +104,4 @@ L1 regularization takes the absolute values of the weights, so the cost only inc
 
 L2 is more robust but will cost efficent in calculation
 
+𝐽(𝐰,𝑏)=12𝑚∑𝑖=0𝑚−1(𝑓𝐰,𝑏(𝐱(𝑖))−𝑦(𝑖))2+𝜆2𝑚∑𝑗=0𝑛−1𝑤2
