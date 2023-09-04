@@ -91,6 +91,9 @@ Alternate to regularization to avoid overfitting is by increadsing data or featu
 
 Regularization is done by adding lambda parameter which parameterize the (sum of square of all weights except b)
 
+If lambda is zero then we have no overfitting, but if lambda is very high. then GD will make all values of parameter ~ 0
+Hence it will underfit
+
 So when GD is minimizing , the first term will help in minimizing the error as usual , while the second(lambda) term will help 
 in minimizing overfitting by keeping the weights values in check. Because if weights are high which makes their squared 
 term high and increase the overall cost. Hence in order to keep the cost function low, GD should reduce the error 
