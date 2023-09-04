@@ -85,3 +85,8 @@ Hence you don't need to do a feature selection and regularization can work but i
 weights automatically
 For eg, if the weight of a polynomial variable is very large which is causing the overfitting, by adding a regularization 
 term in the cost function . It will help tweek the value of that parameter to very low
+Its not neccessary to regularize 'b' parameter
+
+Alternate to regularization to avoid overfitting is by increadsing data or feature selection.
+
+
