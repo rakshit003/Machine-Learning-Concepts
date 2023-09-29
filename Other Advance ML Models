@@ -82,3 +82,5 @@ After the assign of points to initial centroids , an average of each group is ta
 Above 2 points are repeated
 Idea is afet multiple iterations when there is no further changes to location of centroids
 , algorithm will converge the true centroids and group similar clusters together
+
+Cost function is nothing but the avergae of distance error of each point with their centroids
