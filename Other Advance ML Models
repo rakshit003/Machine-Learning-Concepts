@@ -64,3 +64,21 @@ miscalssified examples from periously built trees, hence the subsecquent tree bu
 records from ensamle of built so far. This process is called boosting
 
 XG boost is very good for prediction in lines with NN
+
+
+*****Clustering*******
+
+Clustering algorithm looks at a set of data points and automatically finds datapoints that are related to each other
+Use cases: grouping similar articales together, Analyse DNA data to group people into similar traits, Astronomers use to group
+bodies in space
+
+K means Clsutering: 
+-randomly pick multiple centors of the clusters
+-It does 2 things repeatedly , 1 Assign each point to centroids , 2 move/update the cluster centroids
+
+Assigning points to cluster centroids is decided by how closer point is to which cluster
+After the assign of points to initial centroids , an average of each group is taken and that becomes the new centroid
+
+Above 2 points are repeated
+Idea is afet multiple iterations when there is no further changes to location of centroids
+, algorithm will converge the true centroids and group similar clusters together
