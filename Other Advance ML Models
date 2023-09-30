@@ -84,3 +84,9 @@ Idea is afet multiple iterations when there is no further changes to location of
 , algorithm will converge the true centroids and group similar clusters together
 
 Cost function is nothing but the avergae of distance error of each point with their centroids
+
+Note: Random initialization can result into centroid being stuck in local minima
+
+In order to fix random initialization error, Run multiple random trials and let the cost function 
+minimize the centroid error across all these trials. which ever centroid errors is the minimum chose those as
+true centroids.
