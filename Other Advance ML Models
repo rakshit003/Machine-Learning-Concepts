@@ -85,8 +85,17 @@ Idea is afet multiple iterations when there is no further changes to location of
 
 Cost function is nothing but the avergae of distance error of each point with their centroids
 
-Note: Random initialization can result into centroid being stuck in local minima
+Constraint1: Random initialization can result into centroid being stuck in local minima
 
 In order to fix random initialization error, Run multiple random trials and let the cost function 
 minimize the centroid error across all these trials. which ever centroid errors is the minimum chose those as
 true centroids.
+
+Constraint2: How to choose number of clusters
+
+Elbow Cureve:One method is by plotting Cost function agains different values of and where ever we get eblow joint
+we take that value.
+But normally if you plot this curve, J will always reduce with higher and higher value of k , which also results 
+into overfitting
+
+A better way to pick k is from business requirement and cost of splitting into more k for the buesiness
