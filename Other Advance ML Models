@@ -115,4 +115,5 @@ Is it sunny, rainy, is it going to snow
 
 Chosing feature for anomaly detection is even more important as it will not auto rule out that feature by assign low weight (in supervised)
 Its better to chose a feature that is more gaussian in nature for anomaly detection
-If a disctrubution is skewed for a variable ,we can transform the variable as Xnew= log(X +C) inorder to make it gaussian
+If a disctrubution is skewed for a variable ,we can transform the variable as Xnew= log(X +C) or square root , or x^4 etc.
+inorder to make it gaussian
