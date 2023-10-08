@@ -112,3 +112,7 @@ Where supervised learning looks at your positive examples and tries to decide if
 Many security related applications will use anomaly detection as hackers will try to come up new ways of comminting breach.
 Whereas returning to supervised learning, if you want to learn to predict the weather well, there's only a handful types of weather that you typically see.
 Is it sunny, rainy, is it going to snow
+
+Chosing feature for anomaly detection is even more important as it will not auto rule out that feature by assign low weight (in supervised)
+Its better to chose a feature that is more gaussian in nature for anomaly detection
+
