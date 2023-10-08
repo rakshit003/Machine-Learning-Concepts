@@ -117,3 +117,6 @@ Chosing feature for anomaly detection is even more important as it will not auto
 Its better to chose a feature that is more gaussian in nature for anomaly detection
 If a disctrubution is skewed for a variable ,we can transform the variable as Xnew= log(X +C) or square root , or x^4 etc.
 inorder to make it gaussian
+
+Another way to imrove the anomaly detection algo is by doing error analysis, where in 
+by looking at the misclassified anomalies and finding out a new variable in whose gaussian distribution its anamalus
