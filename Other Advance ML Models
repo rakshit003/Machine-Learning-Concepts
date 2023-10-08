@@ -99,3 +99,16 @@ But normally if you plot this curve, J will always reduce with higher and higher
 into overfitting
 
 A better way to pick k is from business requirement and cost of splitting into more k for the buesiness
+
+
+**Anomali detection***
+
+Density Estimation using gaussian function for each variable
+Estimate Mu and Sigma2 for each variable to and multiply to find the overall probablity function
+
+Anomaly detection tries to find brand new positive examples that may be unlike anything you've seen before. 
+Where supervised learning looks at your positive examples and tries to decide if a future example is similar to the positive examples that you've already seen.
+
+Many security related applications will use anomaly detection as hackers will try to come up new ways of comminting breach.
+Whereas returning to supervised learning, if you want to learn to predict the weather well, there's only a handful types of weather that you typically see.
+Is it sunny, rainy, is it going to snow
