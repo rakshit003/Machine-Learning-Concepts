@@ -103,6 +103,7 @@ A better way to pick k is from business requirement and cost of splitting into m
 
 **Anomali detection***
 
+**Gaussian Model***
 Density Estimation using gaussian function for each variable
 Estimate Mu and Sigma2 for each variable to and multiply to find the overall probablity function
 
