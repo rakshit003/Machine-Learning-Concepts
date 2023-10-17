@@ -275,4 +275,7 @@ However, Its important to note that while a higer AUC generally correlates with 
 numerical value for recall. To Evaluate recall directly you should examine the specific point on the ROC curve that
 corresponds to your chosen classification threshold or use precision recall metrics like F1 scrore.
 
+It is possible to have a high recall and low AUC when model is identifying most of the positive cases at the risk 
+of misclassifying -ve cases(high false postive). 
+
 Hence AUC helps in identifying models performance at prediction of both +ve and -ve instances.
