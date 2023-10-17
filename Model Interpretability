@@ -258,3 +258,17 @@ for example using computer fonts to generate image of text data
 This Approach mean focus more on the data rather than the model.
 Nowadays a lot of algorithm as are very good an ready to use , so sometimes its more fruitful to ivest more time in 
 create the right data for the model to improve its performance rather than improving code to improve perfromance
+
+
+****** Perfromance Metrics ******
+
+- AUC and ROC
+
+AUC(Area under the Curve) is in the context of ROC (Reciever Operating Characterstics)
+
+ROC: It Plots True Positive Rate(Recall) on Y axis and False Positive Rate( False Positive / total Negative) on x axis
+AUC is a single Metrics that quantifies how well classifier is distinguingsing between positive and negative cases.
+A higher AUC indicates that ROC icurve is shifter closer to the upper-left corner, which means your model
+is better at achiving higher recall rates while controlling false positive rates.
+
+Hence AUC helps in identifying models performance at prediction of both +ve and -ve instances.
