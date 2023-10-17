@@ -271,4 +271,8 @@ AUC is a single Metrics that quantifies how well classifier is distinguingsing b
 A higher AUC indicates that ROC icurve is shifter closer to the upper-left corner, which means your model
 is better at achiving higher recall rates while controlling false positive rates.
 
+However, Its important to note that while a higer AUC generally correlates with better recall, it doesn't provide a specific 
+numerical value for recall. To Evaluate recall directly you should examine the specific point on the ROC curve that
+corresponds to your chosen classification threshold or use precision recall metrics like F1 scrore.
+
 Hence AUC helps in identifying models performance at prediction of both +ve and -ve instances.
