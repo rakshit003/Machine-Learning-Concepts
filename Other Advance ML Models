@@ -128,3 +128,20 @@ finding out a new features in whose gaussian distribution its anamalus
 **colaborative filtering **
 
 A content-based filtering model will not select items if the user’s previous behavior does not provide evidence for this
+Give a a set of categories(eg Movies) to rate and given a set of users providing their rating on these movies
+An Algorithm can be built that identify the inhent qualities of the movie(like genre variables). Quality variables
+along with Parameter for each user get modelled to find out the individual user parameter and movies X variables
+
+for eg:
+given 
+Nu-- Number of users
+Nm-- number of movies
+
+R(i,j) --- rating give by ith user of jth movie
+
+we can find out X(X1,X2,X3...) the  variables defining the inherent values of the movie
+Also we can find out Wi,bi -- Weights of the ith user
+
+such that Wi*Xj +bi = R(i,j)
+
+
