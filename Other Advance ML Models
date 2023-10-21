@@ -144,4 +144,4 @@ Also we can find out Wi,bi -- Weights of the ith user
 
 such that Wi*Xj +bi = R(i,j)
 
-
+if Distance between Xi and Xi+n is less then i and i+n movie are similar to each other
