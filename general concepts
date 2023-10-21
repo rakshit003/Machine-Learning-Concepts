@@ -113,5 +113,21 @@ iteratively update the parameters untill we get the optimized value of the param
 There is a way to instruct tensor flow to find the derivatives by providing cost function
 The function used is tf.GradientTape()
 
+w= tf.Variable(3) **3 is default value , it can be changed to anything
+x=1
+y=1
+alpha=0.01
+
+for i in range(100):
+
+ with tf.GradientTape() as Tape:
+  fwb = w*x
+  costJ= = (fwb-y)**2
+ 
+ [dJdw]= Tape.Gradient(costJ,[w])
+
+ w.assign_add(-alpha*dJdw)
+
+
 
 
