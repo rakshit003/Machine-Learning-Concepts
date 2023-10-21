@@ -127,7 +127,10 @@ finding out a new features in whose gaussian distribution its anamalus
 
 **colaborative filtering **
 
-A content-based filtering model will not select items if the user’s previous behavior does not provide evidence for this
+A content-based filtering model will not select items if the user’s previous behavior does not provide evidence for this.
+Without having any variables or information about the users, just by the rating they have provided we can get inherent
+characteristics of the items they have rated by views their ratings in a collaborative way
+
 Give a a set of categories(eg Movies) to rate and given a set of users providing their rating on these movies
 An Algorithm can be built that identify the inhent qualities of the movie(like genre variables). Quality variables
 along with Parameter for each user get modelled to find out the individual user parameter and movies X variables
