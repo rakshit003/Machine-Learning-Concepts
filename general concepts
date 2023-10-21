@@ -105,3 +105,13 @@ L1 regularization takes the absolute values of the weights, so the cost only inc
 L2 is more robust but will cost efficent in calculation
 
 𝐽(𝐰,𝑏)=12𝑚∑𝑖=0𝑚−1(𝑓𝐰,𝑏(𝐱(𝑖))−𝑦(𝑖))2+𝜆2𝑚∑𝑗=0𝑛−1𝑤2
+
+***** Gradient Decent in Tensor Flow********
+In Order to perform gradient decent , We need to get the derivatives of the cost function, which are used to 
+iteratively update the parameters untill we get the optimized value of the parameter
+
+There is a way to instruct tensor flow to find the derivatives by providing cost function
+The function used is tf.GradientTape()
+
+
+
