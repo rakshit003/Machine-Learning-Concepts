@@ -127,6 +127,8 @@ finding out a new features in whose gaussian distribution its anamalus
 
 **colaborative filtering **
 
+Colaborative algo recommends based on  user who have rated items similar to you.
+
 A content-based filtering model will not select items if the user’s previous behavior does not provide evidence for this.
 Without having any variables or information about the users, just by the rating they have provided we can get inherent
 characteristics of the items they have rated by views their ratings in a collaborative way
