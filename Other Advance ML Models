@@ -218,3 +218,9 @@ for iter in range(iterations):
     # Log periodically.
     if iter % 20 == 0:
         print(f"Training loss at iteration {iter}: {cost_value:0.1f}")
+
+***********Renforcement Learning****************
+
+Unlike supervised learning RL tells the object what to do rather than how to do it
+driven by rewards and maximizing good rewards rather than otimization funtion.
+
