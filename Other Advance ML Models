@@ -264,3 +264,6 @@ Q(s,a) will calculate the return for all the action for that state. And it does 
 If we maximize action from any state we will get the highest reward
 
 Optimal Policy is executed by maximizing the State Action Value function Q(s,a)
+
+If Discount factor is small the it makes a agent very impatient because of which it needs the terminal reward faster.
+where as if its large then even if the terminal reward is farther agent won't mind travelling many steps
