@@ -224,7 +224,7 @@ for iter in range(iterations):
 Unlike supervised learning RL tells the object what to do rather than how to do it
 driven by rewards and maximizing good rewards rather than otimization funtion.
 
-Total rerturn at a given step is calculated to Future discounted reward.
+Total rerturn at a given step is calculated sum of Future discounted rewards. Discounted by discount factor
 Immideate reward is not discounted whereas the further down the road reward is for the agent lower is it value
 when view at current time.
 This Philosophy can be equated with financial market where money gets subjected to inflation in the future.
