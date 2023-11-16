@@ -244,7 +244,7 @@ This Process is called Markov Decision Process: Which implies future is only dep
 and not on how you got to the current state
 
 
-To Summaries RL learning has below parameters
+To Summaries MDP RL learning has below parameters
 
 States
 Actions
@@ -257,3 +257,5 @@ Agent is a robot of something that we wish to control(its actions). Once an Agen
 the world/environment changes and we observe the agent in new state and get a reward for that action.
 The Policy comes into picture and directs the agent to take new action based on its current state
 
+State Action Value Function:
+Q(s,a) = Return if ( you take an action a from state a and then bheave optimally after that)
