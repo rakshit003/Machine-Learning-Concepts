@@ -262,3 +262,5 @@ Q(s,a) = Return if ( you take an action a from state a and then bheave optimally
 
 Q(s,a) will calculate the return for all the action for that state. And it does it for all states
 If we maximize action from any state we will get the highest reward
+
+Optimal Policy is executed by maximizing the State Action Value function Q(s,a)
