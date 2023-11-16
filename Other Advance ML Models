@@ -237,3 +237,5 @@ In case of -ve rewards the algorithm optimizes by pushing out -ves as far into t
 An analagy is if you have been asked to pay 10$ now and deffer this to pay may years later , given the inflation factor 
 its much economical to pay 10$ in future than paying it now
 
+The goal of reinforcement learning is to find a policy Pi or Pi of S that tells you what 
+action to take in every state so as to maximize the return
