@@ -239,3 +239,18 @@ its much economical to pay 10$ in future than paying it now
 
 The goal of reinforcement learning is to find a policy Pi or Pi of S that tells you what 
 action to take in every state so as to maximize the return
+
+This Process is called Markov Decision Process: Which implies future is only dependent on the current state
+and not on how you got to the current state
+
+
+To Summaries RL learning has below parameters
+
+States
+Actions
+Rewards
+Discount Factor
+Return
+Policy
+
+
