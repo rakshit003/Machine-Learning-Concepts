@@ -259,3 +259,6 @@ The Policy comes into picture and directs the agent to take new action based on 
 
 State Action Value Function:
 Q(s,a) = Return if ( you take an action a from state a and then bheave optimally after that)
+
+Q(s,a) will calculate the return for all the action for that state. And it does it for all states
+If we maximize action from any state we will get the highest reward
