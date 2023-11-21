@@ -270,3 +270,5 @@ where as if its large then even if the terminal reward is farther agent won't mi
 
 The Goal of RL Problem is to learn a policy pi.That when given a state s picks an action A, so as to 
 maximize the return (its sum of future discounted rewards).
+
+State is nothing but a list of numbers , each number represnting a variable which describle an aspect of agents state
