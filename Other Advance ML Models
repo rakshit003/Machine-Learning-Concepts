@@ -267,3 +267,6 @@ Optimal Policy is executed by maximizing the State Action Value function Q(s,a)
 
 If Discount factor is small the it makes a agent very impatient because of which it needs the terminal reward faster.
 where as if its large then even if the terminal reward is farther agent won't mind travelling many steps
+
+The Goal of RL Problem is to learn a policy pi.That when given a state s picks an action A, so as to 
+maximize the return (its sum of future discounted rewards).
