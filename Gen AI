@@ -28,8 +28,11 @@ This is another way to make the ouputs be more custom to your usecase
 Genrelly Fine tuning is uesd when instructions are not easy to define in a prompt
 for fine tuning will change the overall outcome to a specific style 
 
-for eg: if lets say you want to change the output style of text of gen AI to make it similar to how a person
+for eg: 
+-if lets say you want to change the output style of text of gen AI to make it similar to how a person
 talks. genreally you LLM might not be trained to have information of that person. So fine tuning the transcripts
 of the person from past and changing the answer format to that sytle is a fine tuning example
-Also if we want to process some complicated documents like Doctor Transcripts, or legal transcripts which donot
+-Also if we want to process some complicated documents like Doctor Transcripts, or legal transcripts which donot
 user normal englisg and there are a lot of abbrevations used then its a good idea to fine tune it for that kind of wrinting
+-Also if we have resorces of only small model(<1bill param). and we fine tune it on a specific task it can produce 
+desired results
