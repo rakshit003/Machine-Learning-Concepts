@@ -19,3 +19,6 @@ RAG can help find the information in those docs by first providing more context 
 and then answer it
 
 Usecase: Chat with PDF
+LLMs may have read a lot of texts on the Internet, and so it's tempting to think of them as knowing a lot of things and they do,
+but they don't know everything. 
+With the rag approach, we provide relevant context in the prompt itself and we ask the LLM to read that piece of text and then to process it to get to the answer
