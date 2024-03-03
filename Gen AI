@@ -36,3 +36,10 @@ of the person from past and changing the answer format to that sytle is a fine t
 user normal englisg and there are a lot of abbrevations used then its a good idea to fine tune it for that kind of wrinting
 -Also if we have resorces of only small model(<1bill param). and we fine tune it on a specific task it can produce 
 desired results
+
+
+Which model to chose
+- Small Models -- 1 bill params : basic world knowledge -- patter matching
+- Medium Models - 10 bill params: Food Order chatbot. We don't need complex knowledge to build these apps
+- LLM Models -- Rich world knowldge like phylosophy , art,physics ... brainstorming 
+
