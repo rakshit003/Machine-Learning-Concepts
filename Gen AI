@@ -9,3 +9,13 @@ def llm_response(prompt):
 prompt = ''' food looks delicious '''
 response=llm_response(prompt)
 print(response)
+
+RAG:
+RAG Retrieval Augmented Generation is an important technique 
+that is enabling many LLMs to have context or to have information beyond what it may have learned on the open Internet
+
+for eg if your company has multiple internal policy documents for employees
+RAG can help find the information in those docs by first providing more context to your question to your question
+and then answer it
+
+Usecase: Chat with PDF
