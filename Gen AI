@@ -22,3 +22,12 @@ Usecase: Chat with PDF
 LLMs may have read a lot of texts on the Internet, and so it's tempting to think of them as knowing a lot of things and they do,
 but they don't know everything. 
 With the rag approach, we provide relevant context in the prompt itself and we ask the LLM to read that piece of text and then to process it to get to the answer
+
+Fine Tuning
+This is another way to make the ouputs be more custom to your usecase
+Genrelly Fine tuning is uesd when instructions are not easy to define in a prompt
+for fine tuning will change the overall outcome to a specific style 
+
+for eg: if lets say you want to change the output style of text of gen AI to make it similar to how a person
+talks. genreally you LLM might not be trained to have information of that person. So fine tuning the transcripts
+of the person from past and changing the answer format to that sytle is a fine tuning example
