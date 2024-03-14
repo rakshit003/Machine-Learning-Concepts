@@ -90,7 +90,7 @@ Deploying genAI bot to customer process
 
 Limitation of LLM
 
-- They can only give information upto a yearcut off. any inventions after 2022 is beyond scope of llms
+- knowledge cutoff.They can only give information upto a yearcut off. any inventions after 2022 is beyond scope of llms, like latest articale summry from todays newspaper
 - Hallucination . It can give authoritative answers and actually its a made up thing by llms 
 - limitation on input and output length. so we can only give it a limited context.context length limitation
 - Gen AI currently not work very well on structured data or tabular data. In contrast GenAi works well with unstructured
