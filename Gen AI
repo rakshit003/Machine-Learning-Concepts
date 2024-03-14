@@ -73,7 +73,7 @@ With millions of images model learns to generate an image from 100% noise with t
 ******LLM Applications******
 
 --Writing: enter prompts to output big written texts like genrating press release or laguage transaltion
---Reading: Feed in data and emit out short output text. like summarization, release press release, reading email , predicting sentiment of a test. Sentiment Tracking dashboard.
+--Reading: Feed in data and emit out short output text. like proof reading summarization, release press release, reading email , predicting sentiment of a test. Sentiment Tracking dashboard.
 --Chatting: Customer Agent Interation Augmentation.. customer service chatbot, advise chatbot like food recipie or food ordering chatbot
 chatbot supporting supporting human , like Agent customer interation .. this desion is called human in the loop.
 triaging request from incoming request from customers.
