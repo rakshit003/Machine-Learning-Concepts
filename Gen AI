@@ -86,3 +86,9 @@ Deploying genAI bot to customer process
 -Can start with internal employees first
 -then add human in loop before releasing to customer
 -then release it to customers directly
+
+
+Limitation of LLM
+
+- They can only give information upto a yearcut off. any inventions after 2022 is beyond scope of llms
+- Hallucination . It can give authoritative answers and actually its a made up thing by llms 
