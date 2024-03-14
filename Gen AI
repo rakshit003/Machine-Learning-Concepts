@@ -79,3 +79,10 @@ chatbot supporting supporting human , like Agent customer interation .. this des
 triaging request from incoming request from customers.
 
 Also, we could have a Web Application or Software linked llm to perform the augmentation or automation
+
+
+Deploying genAI bot to customer process
+
+-Can start with internal employees first
+-then add human in loop before releasing to customer
+-then release it to customers directly
