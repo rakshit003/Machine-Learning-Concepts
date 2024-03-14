@@ -61,3 +61,11 @@ This process is then further complimented by a prompt text and in each noisyless
 both noisy image and the prompt is imputted to generate the less noisy image
 
 With millions of images model learns to generate an image from 100% noise with the help of its supporting prompt
+
+******LLM Applications******
+
+--Writing: enter prompts to output big written texts
+--Reading: Feed in data to clasify or summarise it
+--Chatbot: Customer Agent Interation Augmentation
+
+Also, we could have a Web Application or Software linked llm to perform the augmentation or automation
