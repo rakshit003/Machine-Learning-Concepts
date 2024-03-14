@@ -2,7 +2,9 @@ AI is a general purpose technology because it can be used for muliple tasks.
 Just like electricity or internet
 
 Gen AI is a collection of tools tp generates high quality text image and audio including llms and difusion models for 
-image generation
+image generation.
+
+LLM is trained to predict the next best word using 100s billions or trillion of exampples text in the internet
 
 import openai
 import os
