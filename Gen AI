@@ -95,6 +95,7 @@ Limitation of LLM
 - limitation on input and output length. so we can only give it a limited context.context length limitation
 - Gen AI currently not work very well on structured data or tabular data. In contrast GenAi works well with unstructured
 data like text, image or video.
+- It have underlying have biase.
 
 Structured data usecase can be a good POC concept.
 
